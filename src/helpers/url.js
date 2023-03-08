@@ -7,7 +7,7 @@ const AuthRoutes = {
 
 /** Non Authenticated URL Routes */
 const NonAuthRoutes = {
-  home: '/',
+  landingPage: '/',
 };
 
 export { AuthRoutes, NonAuthRoutes };

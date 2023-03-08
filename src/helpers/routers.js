@@ -6,14 +6,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from 'src/pages/Home';
+import LandingPage from 'src/pages/LandingPage';
 import { NonAuthRoutes } from './url';
 
 function routers() {
   return (
     <div>
       <Routes>
-        <Route path={NonAuthRoutes.home} element={<Home />} />{' '}
+        <Route path={NonAuthRoutes.landingPage} element={<LandingPage />} />{' '}
       </Routes>{' '}
     </div>
   );
