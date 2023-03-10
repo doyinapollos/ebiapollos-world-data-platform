@@ -35,29 +35,29 @@ import verticalLine from '../assets/svgs/vertical-line.svg';
 function Home() {
   return (
     <div className="w-full h-auto ">
-      <div className="w-[100%] h-[100%] flex justify-center items-center  ">
-        <div className="w-[25%] h-[1114px] flex flex-col justify-start items-center bg-pink-400 ">
-          <div className="w-[80%] h-[8%] flex justify-start items-center bg-red-600 ">
+      <div className="w-[100%] h-[100%] font-inter flex justify-center items-center  ">
+        <div className="w-[25%] h-[1114px] border-r border-solid border-[#DDE3E9] flex flex-col justify-start items-center ">
+          <div className="w-[80%] h-[8%] flex justify-start items-center ">
             <img className="w-[33px] h-[21px] " src={menuIcon} alt="" />
-            <button className="w-[82px] h-[27px] border-2 border-solid border-[#DDE3E9] rounded-[5px] ml-[7px] flex justify-around items-center ">
+            <button className="w-[82px] h-[27px] border border-solid border-[#DDE3E9] rounded-[5px] ml-[7px] flex justify-around items-center ">
               <img className="w-[18px] h-[17px] " src={languageIcon} alt="" />
               <p className="text-[12px] ">English</p>
-              <img className="w-[13px] h-[12px] " src={downArrowIcon} alt="" />
+              <img className="w-[11px] h-[10px] " src={downArrowIcon} alt="" />
             </button>
           </div>
-          <form className="w-[100%] h-[36%] flex flex-col justify-around items-center bg-slate-500 ">
+          <form className="w-[100%] h-[36%] flex flex-col justify-around items-center ">
             <div className="w-[80%] ">
-              <p className="mb-[5px] ">Location</p>
+              <p className="mb-[5px] ">LOCATION</p>
               <input
-                className="w-[100%] h-[42px] rounded-[5px] pl-[5px] "
+                className="w-[100%] h-[42px] rounded-[5px] pl-[5px] border border-solid border-[#DDE3E9] "
                 type="text"
                 placeholder="Enter Location"
               />
             </div>
             <div className="w-[80%] ">
-              <p className="mb-[5px]">Date range</p>
+              <p className="mb-[5px]">DATE RANGE</p>
               <input
-                className="w-[100%] h-[42px] rounded-[5px] pl-[5px] "
+                className="w-[100%] h-[42px] rounded-[5px] pl-[5px] border border-solid border-[#DDE3E9] "
                 type="text"
                 placeholder="Sellect Dates"
               />
@@ -96,52 +96,28 @@ function Home() {
               <p className="mb-[5px]">COMPANY TYPE</p>
               <div className="flex justify-between items-center ">
                 <input
-                  className="w-[47%] h-[42px] rounded-[5px] pl-[5px] "
+                  className="w-[47%] h-[42px] text-[12px] rounded-[5px] pl-[5px] border border-solid border-[#DDE3E9] "
                   type="text"
                   placeholder="Staff Count"
                 />
                 <input
-                  className="w-[47%] h-[42px] rounded-[5px] pl-[5px]  "
+                  className="w-[47%] h-[42px] text-[12px] rounded-[5px] pl-[5px] border border-solid border-[#DDE3E9]  "
                   type="text"
                   placeholder="Revenue Vol."
                 />
               </div>
             </div>
-            <button className="w-[80%] h-[42px] bg-[#0094FF] rounded-[5px] ">
+            <button className="w-[80%] h-[42px] text-white bg-[#0094FF] rounded-[5px] ">
               Search
             </button>
           </form>
-          <hr className="w-[80%] border-2 border-solid border-[#0094FF] " />
-          <div className="w-[80%] h-[50%] bg-red-400 ">
-            <div className="w-[100%] h-[10%] flex justify-between items-center bg-blue-400 ">
+          <hr className="w-[80%] my-[20px] border border-solid border-[#0094FF] " />
+          <div className="w-[80%] h-[50%] ">
+            <div className="w-[100%] h-[10%] flex justify-between items-center ">
               <p> TOP CUSTOMERS </p> <img src={threeDots} alt="" />
             </div>
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
-                <img className="w-[32px] h-[32px] " src={profilePic} alt="" />
-              </div>{' '}
-              <div className=" flex justify-start items-center ">
-                <p> ebiapollos </p>{' '}
-              </div>{' '}
-            </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
-                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
-              </div>{' '}
-              <div className=" flex justify-start items-center ">
-                <p> Ronald Richards </p>{' '}
-              </div>{' '}
-            </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
-                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
-              </div>{' '}
-              <div className=" flex justify-start items-center ">
-                <p> Ronald Richards </p>{' '}
-              </div>{' '}
-            </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
                 <img
                   className="w-[32px] h-[32px] rounded-[50px] "
                   src={profilePic}
@@ -152,8 +128,24 @@ function Home() {
                 <p> ebiapollos </p>{' '}
               </div>{' '}
             </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
+                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
+              </div>{' '}
+              <div className=" flex justify-start items-center ">
+                <p> Ronald Richards </p>{' '}
+              </div>{' '}
+            </div>{' '}
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
+                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
+              </div>{' '}
+              <div className=" flex justify-start items-center ">
+                <p> Ronald Richards </p>{' '}
+              </div>{' '}
+            </div>{' '}
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
                 <img
                   className="w-[32px] h-[32px] rounded-[50px] "
                   src={profilePic}
@@ -164,16 +156,8 @@ function Home() {
                 <p> ebiapollos </p>{' '}
               </div>{' '}
             </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
-                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
-              </div>{' '}
-              <div className=" flex justify-start items-center ">
-                <p> Ronald Richards </p>{' '}
-              </div>{' '}
-            </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
                 <img
                   className="w-[32px] h-[32px] rounded-[50px] "
                   src={profilePic}
@@ -184,16 +168,36 @@ function Home() {
                 <p> ebiapollos </p>{' '}
               </div>{' '}
             </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
                 <img className="w-[32px] h-[32px] " src={manPic} alt="" />
               </div>{' '}
               <div className=" flex justify-start items-center ">
                 <p> Ronald Richards </p>{' '}
               </div>{' '}
             </div>{' '}
-            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center bg-blue-600 ">
-              <div className="w-[17%] h-[100%] flex justify-start items-center bg-red-700 ">
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
+                <img
+                  className="w-[32px] h-[32px] rounded-[50px] "
+                  src={profilePic}
+                  alt=""
+                />
+              </div>{' '}
+              <div className=" flex justify-start items-center ">
+                <p> ebiapollos </p>{' '}
+              </div>{' '}
+            </div>{' '}
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
+                <img className="w-[32px] h-[32px] " src={manPic} alt="" />
+              </div>{' '}
+              <div className=" flex justify-start items-center ">
+                <p> Ronald Richards </p>{' '}
+              </div>{' '}
+            </div>{' '}
+            <div className="w-[100%] h-[10%] text-[14px] flex justify-start items-center ">
+              <div className="w-[17%] h-[100%] flex justify-start items-center ">
                 <img
                   className="w-[32px] h-[32px] rounded-[50px] "
                   src={profilePic}
@@ -206,8 +210,8 @@ function Home() {
             </div>{' '}
           </div>
         </div>
-        <div className="w-[75%] h-full flex flex-col justify-start items-center bg-blue-700 ">
-          <nav className="w-[100%] h-[100px] border-b-2 border-solid border-gray-400 flex justify-between items-center bg-gray-300 ">
+        <div className="w-[75%] h-full flex flex-col justify-start items-center ">
+          <nav className="w-[100%] h-[80px] px-[10px] mb-[20px] border-b border-solid border-[#DDE3E9] flex justify-between items-center bg-white ">
             <div className="w-[20%] h-[100%] flex justify-start items-center">
               <img className="w-[113px] h-[70px] " src={protechLogo} alt="" />
             </div>
@@ -221,11 +225,11 @@ function Home() {
               />
             </div>
           </nav>{' '}
-          <div className="w-[95%] h-[364px] flex justify-around items-center bg-yellow-300 ">
-            <div className="w-[47%] h-[100%] flex flex-col justify-center items-center bg-green-300 ">
-              <div className="w-[100%] h-[10%] bg-red-300 flex justify-between items-center  ">
+          <div className="w-[95%] h-[364px] flex justify-around items-center ">
+            <div className="w-[47%] h-[100%] border border-solid border-[#DDE3E9] flex flex-col justify-center items-center ">
+              <div className="w-[100%] h-[10%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-between items-center  ">
                 <p>ANALYTICS</p>
-                <button className="w-[112px] h-[32px] text-[12px] text-[#7F8694] rounded-[5px] border-2 border-solid border-[#DDE3E9] flex justify-around items-center ">
+                <button className="w-[112px] h-[28px] text-[12px] text-[#7F8694] rounded-[5px] border border-solid border-[#DDE3E9] flex justify-around items-center ">
                   1 Dec - 20 Jan
                   <img
                     className="w-[10px] h-[5px] "
@@ -234,61 +238,61 @@ function Home() {
                   />
                 </button>
               </div>
-              <div className="w-[100%] h-[10%] flex justify-end items-center bg-blue-400 ">
-                <div className="w-[20%] h-[100%] flex justify-end items-center bg-yellow-200 ">
-                  <div className="w-[23px] h-[23px] bg-[#DCE7F1] rounded-[3px] flex justify-center items-center ">
+              <div className="w-[100%] h-[10%] px-[10px] flex justify-end items-center ">
+                <div className="w-[20%] h-[100%] flex justify-end items-center ">
+                  <div className="w-[23px] h-[23px] bg-[#DDE3E9] rounded-[3px] flex justify-center items-center ">
                     <img className="w-[6px] h-[10px] " src={arrowLeft} alt="" />
                   </div>
-                  <div className="w-[23px] h-[23px] bg-[#DCE7F1] ml-[5px] rounded-[3px] flex justify-center items-center ">
+                  <div className="w-[23px] h-[23px] bg-[#DDE3E9] ml-[5px] rounded-[3px] flex justify-center items-center ">
                     <img className="w-[6px] h-[10px]" src={arrowRight} alt="" />
                   </div>
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[80%] flex flex-col justify-end items-end bg-red-700 ">
-                <div className="w-[90%] h-[80%] bg-purple-600 flex justify-center items-center ">
-                  <div className="w-[45px] h-[100%] border-l-2 border-solid border-gray-400 bg-green-600 flex justify-start items-start">
+              <div className="w-[100%] h-[80%] flex flex-col justify-end items-end ">
+                <div className="w-[90%] h-[80%] text-[13px] flex justify-center items-center ">
+                  <div className="w-[45px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Jan
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[50px] h-[100%] border-l-2 border-solid border-gray-400 bg-red-600 flex justify-start items-start">
+                  <div className="w-[50px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Fen
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[45px] h-[100%] border-l-2 border-solid border-gray-400 bg-green-600 flex justify-start items-start">
+                  <div className="w-[45px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Mar
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[50px] h-[100%] border-l-2 border-solid border-gray-400 bg-blue-600 flex justify-start items-start">
+                  <div className="w-[50px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Apr
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[45px] h-[100%] border-l-2 border-solid border-gray-400 bg-green-600 flex justify-start items-start">
+                  <div className="w-[45px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       May
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[50px] h-[100%] border-l-2 border-solid border-gray-400 bg-red-600 flex justify-start items-start">
+                  <div className="w-[50px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Jun
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[45px] h-[100%] border-l-2 border-solid border-gray-400 bg-green-600 flex justify-start items-start">
+                  <div className="w-[45px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Jul
                       <br /> 22
                     </span>
                   </div>
-                  <div className="w-[50px] h-[100%] border-l-2 border-solid border-gray-400 bg-blue-600 flex justify-start items-start">
+                  <div className="w-[50px] h-[100%] border-l border-solid border-[#DDE3E9] flex justify-start items-start">
                     <span>
                       Aug
                       <br /> 22
@@ -301,10 +305,10 @@ function Home() {
                 </div>
               </div>
             </div>{' '}
-            <div className="w-[47%] h-[100%] flex flex-col justify-center items-center bg-green-700 ">
-              <div className="w-[100%] h-[10%] bg-purple-300 flex justify-between items-center  ">
+            <div className="w-[47%] h-[100%] border border-solid border-[#DDE3E9] flex flex-col justify-center items-center ">
+              <div className="w-[100%] h-[10%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-between items-center  ">
                 <p>GLOBAL HEATMAP</p>
-                <button className="w-[112px] h-[32px] text-[12px] text-[#7F8694] rounded-[5px] border-2 border-solid border-[#DDE3E9] flex justify-around items-center ">
+                <button className="w-[112px] h-[28px] text-[12px] text-[#7F8694] rounded-[5px] border border-solid border-[#DDE3E9] flex justify-around items-center ">
                   1 Dec - 20 Jan
                   <img
                     className="w-[10px] h-[5px] "
@@ -313,11 +317,11 @@ function Home() {
                   />
                 </button>
               </div>{' '}
-              <div className="w-[100%] h-[80%] flex justify-center items-center bg-purple-700 ">
+              <div className="w-[100%] h-[80%] flex justify-center items-center ">
                 <img className="w-[95%] h-[95%] " src={map} alt="" />
               </div>{' '}
-              <div className="w-[100%] h-[10%] flex justify-end items-center bg-blue-400 ">
-                <div className="w-[45%] h-[100%] text-[10px] flex justify-around items-center bg-yellow-200 ">
+              <div className="w-[100%] h-[10%] flex justify-end items-center ">
+                <div className="w-[45%] h-[100%] text-[10px] flex justify-around items-center ">
                   <div className="flex justify-around items-center">
                     <img
                       className="w-[6px] h-[6px] mr-[5px] "
@@ -361,11 +365,11 @@ function Home() {
               </div>{' '}
             </div>{' '}
           </div>{' '}
-          <div className="w-[95%] h-[650px] flex justify-center items-center bg-yellow-700 ">
-            <div className="w-[65%] h-[100%] flex flex-col justify-start items-center bg-orange-200 ">
-              <div className="w-[98%] h-[273px] text-[12px] flex justify-around items-center bg-yellow-300 ">
-                <div className="w-[47%] h-[100%]  flex flex-col justify-center items-center bg-green-300 ">
-                  <div className="w-[100%] h-[15%]  bg-red-300 flex justify-between items-center ">
+          <div className="w-[95%] h-[650px] mt-[20px] flex justify-center items-center ">
+            <div className="w-[65%] h-[100%] flex flex-col justify-start items-center ">
+              <div className="w-[98%] h-[273px] text-[12px] flex justify-around items-center ">
+                <div className="w-[47%] h-[100%] border border-solid border-[#DDE3E9]  flex flex-col justify-center items-center ">
+                  <div className="w-[100%] h-[15%] px-[10px]  border-b border-solid border-[#DDE3E9] flex justify-between items-center ">
                     <p className="text-[15px] ">CUSTOMER GROWTH</p>
                     <div className="w-[50px] h-full flex justify-around items-center ">
                       <img
@@ -380,7 +384,7 @@ function Home() {
                       />
                     </div>
                   </div>{' '}
-                  <div className="w-[100%] h-[70%] flex flex-col justify-center items-center bg-red-700 ">
+                  <div className="w-[100%] h-[70%] flex flex-col justify-center items-center ">
                     <img className="absolute" src={ring1} alt="" />
                     <img className="absolute" src={ring2} alt="" />
                     <img className="absolute" src={ring3} alt="" />
@@ -391,7 +395,7 @@ function Home() {
                       </span>
                     </div>
                   </div>{' '}
-                  <div className="w-[100%] h-[15%] bg-red-500 flex justify-around items-center ">
+                  <div className="w-[100%] h-[15%]  border-t border-solid border-[#DDE3E9] flex justify-around items-center ">
                     <div className="flex justify-around items-center">
                       <img
                         className="w-[6px] h-[6px] mr-[5px] "
@@ -418,8 +422,8 @@ function Home() {
                     </div>
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[47%] h-[100%] flex flex-col justify-center items-center bg-green-700 ">
-                  <div className="w-[100%] h-[15%] bg-purple-300 flex justify-between items-center  ">
+                <div className="w-[47%] h-[100%]  border border-solid border-[#DDE3E9] flex flex-col justify-center items-center ">
+                  <div className="w-[100%] h-[15%] px-[10px]  border-b border-solid border-[#DDE3E9] flex justify-between items-center  ">
                     <p className="text-[15px] ">SALES DATA</p>
                     <div className="w-[50px] h-full flex justify-around items-center ">
                       <img
@@ -434,8 +438,8 @@ function Home() {
                       />
                     </div>
                   </div>{' '}
-                  <div className="w-[100%] h-[80%] bg-purple-700 flex flex-col justify-end items-center ">
-                    <div className="w-[90%] h-[85%] bg-green-400 flex justify-between items-end ">
+                  <div className="w-[100%] h-[80%] flex flex-col justify-end items-center ">
+                    <div className="w-[90%] h-[85%] flex justify-between items-end ">
                       <img className="h-[28px] " src={verticalLine} alt="" />
                       <img className="h-[41px] " src={verticalLine} alt="" />
                       <img className="h-[50px] " src={verticalLine} alt="" />
@@ -452,7 +456,7 @@ function Home() {
                       <img className=" h-[106px] " src={verticalLine} alt="" />
                       <img className=" h-[124px] " src={verticalLine} alt="" />
                     </div>
-                    <div className="w-[90%] h-[15%] bg-yellow-300 flex justify-between items-center ">
+                    <div className="w-[90%] h-[15%] flex justify-between items-center ">
                       <span>01</span>
                       <span>02</span>
                       <span>03</span>
@@ -461,7 +465,7 @@ function Home() {
                       <span>06</span>
                     </div>
                   </div>{' '}
-                  <div className="w-[100%] h-[15%] bg-purple-500 flex justify-around items-center ">
+                  <div className="w-[100%] h-[15%]  border-t border-solid border-[#DDE3E9] flex justify-around items-center ">
                     <div className="flex justify-around items-center">
                       <img
                         className="w-[6px] h-[6px] mr-[5px] "
@@ -489,10 +493,10 @@ function Home() {
                   </div>{' '}
                 </div>{' '}
               </div>{' '}
-              <div className="w-[95%] h-[350px] flex flex-col justify-start items-center bg-yellow-500 ">
-                <div className="w-[95%] h-[15%] flex justify-between items-center bg-blue-400 ">
+              <div className="w-[95%] h-[350px] mt-[20px] text-[12px]  border border-solid border-[#DDE3E9] flex flex-col justify-start items-center ">
+                <div className="w-[100%] h-[15%] px-[10px]  border-b border-solid border-[#DDE3E9] flex justify-between items-center ">
                   <p> NEW LEADS </p>{' '}
-                  <div className="w-[20%] h-[100%] flex justify-end items-center bg-yellow-200 ">
+                  <div className="w-[20%] h-[100%] flex justify-end items-center ">
                     <div className="w-[23px] h-[23px] bg-[#DCE7F1] rounded-[3px] flex justify-center items-center ">
                       <img
                         className="w-[6px] h-[10px] "
@@ -509,8 +513,8 @@ function Home() {
                     </div>
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-500 ">
+                <div className="w-[100%] h-[15%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <p> Sources </p>{' '}
                     <img
                       className="w-[10px] h-[5px] ml-[5px] mt-[5px] "
@@ -551,8 +555,8 @@ function Home() {
                     />
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-700 ">
+                <div className="w-[100%] h-[15%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <img
                       className="w-[32px] h-[32px] "
                       src={instagramLogo}
@@ -572,8 +576,8 @@ function Home() {
                     <p> mthurn @meta.com </p>{' '}
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-700 ">
+                <div className="w-[100%] h-[15%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <img
                       className="w-[32px] h-[32px] "
                       src={salesforceLogo}
@@ -593,8 +597,8 @@ function Home() {
                     <p> mthurn @meta.com </p>{' '}
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-700 ">
+                <div className="w-[100%] h-[15%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <img
                       className="w-[32px] h-[32px] "
                       src={whatsappLogo}
@@ -614,8 +618,8 @@ function Home() {
                     <p> mthurn @meta.com </p>{' '}
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-700 ">
+                <div className="w-[100%] h-[15%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <img
                       className="w-[32px] h-[32px] "
                       src={instagramLogo}
@@ -635,8 +639,8 @@ function Home() {
                     <p> mthurn @meta.com </p>{' '}
                   </div>{' '}
                 </div>{' '}
-                <div className="w-[100%] h-[15%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                  <div className="w-[15%] h-[100%] flex justify-start items-center bg-red-700 ">
+                <div className="w-[100%] h-[15%] px-[10px] flex justify-center items-center ">
+                  <div className="w-[15%] h-[100%] flex justify-start items-center ">
                     <img
                       className="w-[32px] h-[32px] "
                       src={salesforceLogo}
@@ -658,8 +662,8 @@ function Home() {
                 </div>{' '}
               </div>{' '}
             </div>{' '}
-            <div className="w-[35%] h-[100%] text-[12px] bg-green-400 ">
-              <div className="w-[100%] h-[5%] bg-purple-300 flex justify-between items-center  ">
+            <div className="w-[35%] h-[100%] mr-[13px] border border-solid border-[#DDE3E9] text-[12px] ">
+              <div className="w-[100%] h-[5%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-between items-center  ">
                 <p className="text-[15px] ">TRENDING LOCATIONS</p>
                 <div className="w-[50px] h-full flex justify-around items-center ">
                   <img
@@ -670,8 +674,8 @@ function Home() {
                   <img className="w-[10px] h-[15px] " src={menuIcon} alt="" />
                 </div>
               </div>{' '}
-              <div className="w-[100%] h-[7%] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-start items-center bg-red-500 ">
+              <div className="w-[100%] h-[7%] px-[10px] border-b border-solid border-[#DDE3E9] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-start items-center ">
                   <p> COUNTRY </p>{' '}
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -686,8 +690,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -702,8 +706,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -718,8 +722,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -734,8 +738,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -750,8 +754,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -766,8 +770,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -782,8 +786,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -798,8 +802,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -814,8 +818,8 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[7%] text-[14px] flex justify-center items-center bg-blue-600 ">
-                <div className="w-[33%] h-[100%] flex justify-center items-center bg-red-700 ">
+              <div className="w-[100%] h-[7%] border-b border-solid border-[#DDE3E9] text-[14px] flex justify-center items-center ">
+                <div className="w-[33%] h-[100%] flex justify-center items-center ">
                   <img className="w-[28px] h-[20px] " src={ukFlag} alt="" />
                 </div>{' '}
                 <div className="w-[33%] h-[100%] flex justify-start items-center ">
@@ -830,7 +834,7 @@ function Home() {
                   />
                 </div>{' '}
               </div>{' '}
-              <div className="w-[100%] h-[5%] bg-purple-300 flex justify-between items-center  ">
+              <div className="w-[100%] h-[5%] mt-[20px] px-[10px] border border-solid border-[#DDE3E9] flex justify-between items-center  ">
                 <p className="text-[15px] ">REVENUE</p>
                 <div className="w-[50px] h-full flex justify-around items-center ">
                   <img
@@ -841,7 +845,7 @@ function Home() {
                   <img className="w-[10px] h-[15px] " src={menuIcon} alt="" />
                 </div>
               </div>{' '}
-              <div className="w-[80%] h-[10%] flex justify-start items-center bg-pink-700 ">
+              <div className="w-[100%] h-[10%] px-[10px] border-x border-b border-solid border-[#DDE3E9] flex justify-start items-center ">
                 <div>
                   <p className="mb-[2px] text-[14px] ">Year To Date</p>
                   <div className="flex justify-start items-center  ">

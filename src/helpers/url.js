@@ -8,6 +8,7 @@ const AuthRoutes = {
 /** Non Authenticated URL Routes */
 const NonAuthRoutes = {
   landingPage: '/',
+  mobileMenu: '/mobile-menu',
 };
 
 export { AuthRoutes, NonAuthRoutes };
